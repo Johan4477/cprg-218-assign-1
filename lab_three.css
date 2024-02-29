@@ -27,3 +27,16 @@
         grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
     }
 }
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  }
+  
+  /* Adjustments for different screen sizes */
+  @media screen and (max-width: 768px) {
+    .video-container {
+      height: auto; /* Reset height for smaller screens */
+    }
+  }
